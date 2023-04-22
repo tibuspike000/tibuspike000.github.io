@@ -282,7 +282,7 @@ p {
 
 /* Footer Styles */
 footer {
-  background-color: #af1010;
+  background-color: #000000a4;
   color: #ffffff;
   padding: 1.25rem;
 }
@@ -309,7 +309,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #c800ff;
+  color: #af1010;
 }
 
 footer p {
