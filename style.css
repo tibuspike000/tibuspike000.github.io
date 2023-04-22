@@ -46,7 +46,7 @@ ul {
 }
 
 button {
-  background-color: #7700ff;
+  background-color: #000000;
   border: none;
   color: #fff;
   padding: 24px 32px;
@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-  background-color: #7700ff;
+  background-color: #000000;
 }
 
 
@@ -72,7 +72,7 @@ header {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #7700ff;
+  background-color: #a81818;
   border: 2px solid #000000;
   border-radius: 25px;
   width: 90%;
@@ -211,7 +211,7 @@ p {
 .about-card {
   text-align: center;
   align-self: center;
-  border: 2px solid #7700ff;
+  border: 2px solid #af1010;
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 30px;
@@ -235,7 +235,7 @@ p {
   width: calc(33.33% - 30px);
   padding: 15px;
   margin-bottom: 30px;
-  border: 2px solid #7700ff;
+  border: 2px solid #af1010;
   border-radius: 10px;
   transition: transform 0.2s ease-in-out;
 }
@@ -282,7 +282,7 @@ p {
 
 /* Footer Styles */
 footer {
-  background-color: #7700ff;
+  background-color: #af1010;
   color: #ffffff;
   padding: 1.25rem;
 }
