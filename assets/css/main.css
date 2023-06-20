@@ -38,6 +38,7 @@ button {
   border: none;
   color: #fff;
   padding: 24px 32px;
+  font-size: 1.1rem;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -60,12 +61,15 @@ header {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #a81818;
-  border: 2px solid #000000;
-  border-radius: 25px;
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
   width: 90%;
   margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: 'Cyber';
 }
+
 
 #clock {
   display: inline-flex;
@@ -196,7 +200,8 @@ p {
 .about-card {
   text-align: center;
   align-self: center;
-  border: 2px solid #af1010;
+  border: 2px solid #ffffff;
+  font-size: 1.2rem;
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 30px;
@@ -206,12 +211,14 @@ p {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  font-size: 1.5rem;
   align-content: center;
   justify-content: center;
 }
 
 #projects h2 {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .project-card {
@@ -220,10 +227,13 @@ p {
   width: calc(33.33% - 30px);
   padding: 15px;
   margin-bottom: 30px;
-  border: 2px solid #af1010;
+  border: 2px solid #fcfcfc;
+  font-size: 1.2rem;
   border-radius: 10px;
   transition: transform 0.2s ease-in-out;
 }
+
+
 
 .project-card:hover {
   transform: translateY(-10px);
@@ -244,16 +254,18 @@ p {
 /* Contact Section Styles */
 #contact {
   text-align: center;
+  font-size: 1.2rem;
 }
 #contact h2 {
   margin-bottom: 20px;
-  font-size: 2em;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .contact-card {
   display: inline-block;
   border: 2px solid #0026ff;
+  font-size: 1.2rem;
   border-radius: 10px;
   padding: 30px;
   border-radius: 5px;
@@ -261,11 +273,7 @@ p {
   margin: 20px auto;
 }
 
-.contact-card a {
-  color: #e895ff;
-}
 
-/* Footer Styles */
 footer {
   background-color: #000000a4;
   color: #ffffff;
@@ -287,18 +295,26 @@ footer ul li:last-child {
   margin-right: 0;
 }
 
-footer a {
-  color: #ffffff;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
-}
 
-footer a:hover {
-  color: #af1010;
-}
 
 footer p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   opacity: 0.8;
 }
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: Cyber;
+	src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+	font-display: swap;
+}
+body{
+
+	font-family: 'Cyber', sans-serif;
+}
+
